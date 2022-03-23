@@ -5,7 +5,7 @@ Since we're heavy AWS users, we naturally decided to host it on AWS S3, which pr
 
 However, we quickly ran into an issue: AWS S3 does not provide any native, out-of-the-box authentication/authorization process. Because it was an internal-only website, we needed some kind of authorization mechanism to prevent non-authorized users from accessing our website and reports.
 
-That's when we started to look for a solution.
+We needed to find a solution to secure our internal static website on AWS S3.
 
 ## Discovering the solution with CloudFront and Lambda@Edge
 
